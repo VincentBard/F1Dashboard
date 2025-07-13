@@ -457,6 +457,46 @@ export const driverSeasonData: DriverSeasonData[] = [
   // Sergio Pérez
   {
     driverId: "perez",
+    season: 2018,
+    totalPoints: 62,
+    races: [
+      { raceId: "australia-2018", points: 4, position: 8 },
+      { raceId: "bahrain-2018", points: 6, position: 7 },
+      { raceId: "abu-dhabi-2018", points: 8, position: 6 },
+    ],
+  },
+  {
+    driverId: "perez",
+    season: 2019,
+    totalPoints: 52,
+    races: [
+      { raceId: "australia-2019", points: 6, position: 7 },
+      { raceId: "bahrain-2019", points: 8, position: 6 },
+      { raceId: "abu-dhabi-2019", points: 10, position: 5 },
+    ],
+  },
+  {
+    driverId: "perez",
+    season: 2020,
+    totalPoints: 125,
+    races: [
+      { raceId: "australia-2020", points: 10, position: 5 },
+      { raceId: "bahrain-2020", points: 25, position: 1 },
+      { raceId: "abu-dhabi-2020", points: 12, position: 4 },
+    ],
+  },
+  {
+    driverId: "perez",
+    season: 2021,
+    totalPoints: 190,
+    races: [
+      { raceId: "bahrain-2021", points: 10, position: 5 },
+      { raceId: "imola-2021", points: 12, position: 4 },
+      { raceId: "abu-dhabi-2021", points: 12, position: 4 },
+    ],
+  },
+  {
+    driverId: "perez",
     season: 2022,
     totalPoints: 305,
     races: [
@@ -483,6 +523,26 @@ export const driverSeasonData: DriverSeasonData[] = [
       { raceId: "bahrain-2024", points: 18, position: 2 },
       { raceId: "saudi-arabia-2024", points: 25, position: 1 },
       { raceId: "abu-dhabi-2024", points: 15, position: 3 },
+    ],
+  },
+  {
+    driverId: "perez",
+    season: 2025,
+    totalPoints: 280,
+    races: [
+      { raceId: "bahrain-2025", points: 12, position: 4 },
+      { raceId: "saudi-arabia-2025", points: 15, position: 3 },
+      { raceId: "abu-dhabi-2025", points: 12, position: 4 },
+    ],
+  },
+  {
+    driverId: "perez",
+    season: 2026,
+    totalPoints: 295,
+    races: [
+      { raceId: "bahrain-2026", points: 12, position: 4 },
+      { raceId: "saudi-arabia-2026", points: 12, position: 4 },
+      { raceId: "abu-dhabi-2026", points: 10, position: 5 },
     ],
   },
 
