@@ -1314,6 +1314,9 @@ export function getConstructorSeasonData(season: number) {
   if (season === 2024) {
     return season2024;
   }
+  if (season === 2023) {
+    return season2023;
+  }
   // For other seasons, return simplified mock data
   return {
     year: season,
