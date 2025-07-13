@@ -86,9 +86,9 @@ export function ConstructorPointsChart() {
 
   return (
     <Card className="h-full">
-      <CardHeader className="space-y-4">
+      <CardHeader className="space-y-4 pb-4">
         <div className="space-y-2">
-          <CardTitle className="text-xl font-bold">
+          <CardTitle className="text-lg md:text-xl font-bold">
             {t("constructor.chart.title")}
           </CardTitle>
           <p className="text-sm text-muted-foreground">
