@@ -829,7 +829,6 @@ export const driverSeasonData: DriverSeasonData[] = [
     ],
   },
 ];
-];
 
 // Mock constructor race results for 2024 season
 export const season2024: Season = {
