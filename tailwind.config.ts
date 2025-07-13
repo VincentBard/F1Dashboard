@@ -57,6 +57,18 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        f1: {
+          "red-bull": "hsl(var(--red-bull))",
+          ferrari: "hsl(var(--ferrari))",
+          mercedes: "hsl(var(--mercedes))",
+          mclaren: "hsl(var(--mclaren))",
+          alpine: "hsl(var(--alpine))",
+          "aston-martin": "hsl(var(--aston-martin))",
+          "alpha-tauri": "hsl(var(--alpha-tauri))",
+          "alfa-romeo": "hsl(var(--alfa-romeo))",
+          haas: "hsl(var(--haas))",
+          williams: "hsl(var(--williams))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
