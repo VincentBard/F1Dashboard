@@ -59,9 +59,9 @@ export function DriverPerformanceChart() {
 
   return (
     <Card className="h-full">
-      <CardHeader className="space-y-4">
+      <CardHeader className="space-y-4 pb-4">
         <div className="space-y-2">
-          <CardTitle className="text-xl font-bold">
+          <CardTitle className="text-lg md:text-xl font-bold">
             {t("driver.chart.title")}
           </CardTitle>
           <p className="text-sm text-muted-foreground">
@@ -88,12 +88,12 @@ export function DriverPerformanceChart() {
                     <SelectItem key={driver.id} value={driver.id}>
                       <div className="flex items-center gap-2">
                         <div
-                          className="h-3 w-3 rounded-full"
+                          className="h-3 w-3 rounded-full shrink-0"
                           style={{
                             backgroundColor: driverConstructor?.color,
                           }}
                         />
-                        {driver.name}
+                        <span className="truncate">{driver.name}</span>
                       </div>
                     </SelectItem>
                   );
@@ -103,7 +103,7 @@ export function DriverPerformanceChart() {
           </div>
 
           {selectedDriver && constructor && (
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 flex-wrap">
               <Badge
                 variant="secondary"
                 className="flex items-center gap-1 text-xs"
