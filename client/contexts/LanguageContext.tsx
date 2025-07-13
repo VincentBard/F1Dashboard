@@ -21,18 +21,18 @@ const translations = {
     "header.subtitle": "Interactive Formula 1 statistics and analysis",
 
     // Driver Performance Chart
-    "driver.chart.title": "Driver Performance Over Seasons",
+    "driver.chart.title": "Driver Performance Over Seasons (Mock Data)",
     "driver.chart.description":
-      "Displays the point progression of a selected F1 driver over multiple seasons.",
+      "Displays the point progression of a selected F1 driver over multiple seasons using simulated data.",
     "driver.chart.selectDriver": "Select Driver",
     "driver.chart.selectSeasons": "Select Seasons",
     "driver.chart.yAxisLabel": "Championship Points",
     "driver.chart.xAxisLabel": "Season",
 
     // Constructor Chart
-    "constructor.chart.title": "Constructor Points Per Race",
+    "constructor.chart.title": "Constructor Points Per Race (Mock Data)",
     "constructor.chart.description":
-      "Compares the total constructor points per race in a selected season.",
+      "Compares the total constructor points per race in a selected season using simulated data.",
     "constructor.chart.selectSeason": "Select Season",
     "constructor.chart.yAxisLabel": "Points",
     "constructor.chart.xAxisLabel": "Race",
