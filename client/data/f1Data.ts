@@ -335,6 +335,500 @@ export const driverSeasonData: DriverSeasonData[] = [
       { raceId: "abu-dhabi-2024", points: 15, position: 3 },
     ],
   },
+  // Sergio Pérez
+  {
+    driverId: "perez",
+    season: 2022,
+    totalPoints: 305,
+    races: [
+      { raceId: "bahrain-2022", points: 6, position: 5 },
+      { raceId: "saudi-arabia-2022", points: 18, position: 2 },
+      { raceId: "abu-dhabi-2022", points: 15, position: 3 },
+    ],
+  },
+  {
+    driverId: "perez",
+    season: 2023,
+    totalPoints: 260,
+    races: [
+      { raceId: "bahrain-2023", points: 15, position: 3 },
+      { raceId: "saudi-arabia-2023", points: 12, position: 4 },
+      { raceId: "abu-dhabi-2023", points: 18, position: 2 },
+    ],
+  },
+  {
+    driverId: "perez",
+    season: 2024,
+    totalPoints: 310,
+    races: [
+      { raceId: "bahrain-2024", points: 18, position: 2 },
+      { raceId: "saudi-arabia-2024", points: 25, position: 1 },
+      { raceId: "abu-dhabi-2024", points: 15, position: 3 },
+    ],
+  },
+
+  // Carlos Sainz
+  {
+    driverId: "sainz",
+    season: 2022,
+    totalPoints: 246,
+    races: [
+      { raceId: "bahrain-2022", points: 10, position: 5 },
+      { raceId: "saudi-arabia-2022", points: 15, position: 3 },
+      { raceId: "abu-dhabi-2022", points: 12, position: 4 },
+    ],
+  },
+  {
+    driverId: "sainz",
+    season: 2023,
+    totalPoints: 195,
+    races: [
+      { raceId: "bahrain-2023", points: 12, position: 4 },
+      { raceId: "saudi-arabia-2023", points: 10, position: 5 },
+      { raceId: "abu-dhabi-2023", points: 15, position: 3 },
+    ],
+  },
+  {
+    driverId: "sainz",
+    season: 2024,
+    totalPoints: 255,
+    races: [
+      { raceId: "bahrain-2024", points: 10, position: 5 },
+      { raceId: "saudi-arabia-2024", points: 18, position: 2 },
+      { raceId: "abu-dhabi-2024", points: 12, position: 4 },
+    ],
+  },
+
+  // George Russell
+  {
+    driverId: "russell",
+    season: 2022,
+    totalPoints: 275,
+    races: [
+      { raceId: "bahrain-2022", points: 12, position: 4 },
+      { raceId: "saudi-arabia-2022", points: 15, position: 3 },
+      { raceId: "abu-dhabi-2022", points: 10, position: 5 },
+    ],
+  },
+  {
+    driverId: "russell",
+    season: 2023,
+    totalPoints: 280,
+    races: [
+      { raceId: "bahrain-2023", points: 18, position: 2 },
+      { raceId: "saudi-arabia-2023", points: 15, position: 3 },
+      { raceId: "abu-dhabi-2023", points: 12, position: 4 },
+    ],
+  },
+  {
+    driverId: "russell",
+    season: 2024,
+    totalPoints: 310,
+    races: [
+      { raceId: "bahrain-2024", points: 15, position: 3 },
+      { raceId: "saudi-arabia-2024", points: 18, position: 2 },
+      { raceId: "abu-dhabi-2024", points: 15, position: 3 },
+    ],
+  },
+
+  // Lando Norris
+  {
+    driverId: "norris",
+    season: 2022,
+    totalPoints: 215,
+    races: [
+      { raceId: "bahrain-2022", points: 10, position: 5 },
+      { raceId: "saudi-arabia-2022", points: 12, position: 4 },
+      { raceId: "abu-dhabi-2022", points: 8, position: 6 },
+    ],
+  },
+  {
+    driverId: "norris",
+    season: 2023,
+    totalPoints: 245,
+    races: [
+      { raceId: "bahrain-2023", points: 12, position: 4 },
+      { raceId: "saudi-arabia-2023", points: 15, position: 3 },
+      { raceId: "abu-dhabi-2023", points: 10, position: 5 },
+    ],
+  },
+  {
+    driverId: "norris",
+    season: 2024,
+    totalPoints: 295,
+    races: [
+      { raceId: "bahrain-2024", points: 15, position: 3 },
+      { raceId: "saudi-arabia-2024", points: 18, position: 2 },
+      { raceId: "abu-dhabi-2024", points: 12, position: 4 },
+    ],
+  },
+
+  // Oscar Piastri
+  {
+    driverId: "piastri",
+    season: 2023,
+    totalPoints: 120,
+    races: [
+      { raceId: "bahrain-2023", points: 8, position: 6 },
+      { raceId: "saudi-arabia-2023", points: 10, position: 5 },
+      { raceId: "abu-dhabi-2023", points: 12, position: 4 },
+    ],
+  },
+  {
+    driverId: "piastri",
+    season: 2024,
+    totalPoints: 160,
+    races: [
+      { raceId: "bahrain-2024", points: 10, position: 5 },
+      { raceId: "saudi-arabia-2024", points: 12, position: 4 },
+      { raceId: "abu-dhabi-2024", points: 15, position: 3 },
+    ],
+  },
+
+  // Fernando Alonso
+  {
+    driverId: "alonso",
+    season: 2022,
+    totalPoints: 81,
+    races: [
+      { raceId: "bahrain-2022", points: 8, position: 6 },
+      { raceId: "saudi-arabia-2022", points: 10, position: 5 },
+      { raceId: "abu-dhabi-2022", points: 8, position: 6 },
+    ],
+  },
+  {
+    driverId: "alonso",
+    season: 2023,
+    totalPoints: 120,
+    races: [
+      { raceId: "bahrain-2023", points: 10, position: 5 },
+      { raceId: "saudi-arabia-2023", points: 12, position: 4 },
+      { raceId: "abu-dhabi-2023", points: 10, position: 5 },
+    ],
+  },
+  {
+    driverId: "alonso",
+    season: 2024,
+    totalPoints: 140,
+    races: [
+      { raceId: "bahrain-2024", points: 12, position: 4 },
+      { raceId: "saudi-arabia-2024", points: 15, position: 3 },
+      { raceId: "abu-dhabi-2024", points: 12, position: 4 },
+    ],
+  },
+
+  // Lance Stroll
+  {
+    driverId: "stroll",
+    season: 2022,
+    totalPoints: 75,
+    races: [
+      { raceId: "bahrain-2022", points: 6, position: 7 },
+      { raceId: "saudi-arabia-2022", points: 8, position: 6 },
+      { raceId: "abu-dhabi-2022", points: 6, position: 7 },
+    ],
+  },
+  {
+    driverId: "stroll",
+    season: 2023,
+    totalPoints: 85,
+    races: [
+      { raceId: "bahrain-2023", points: 8, position: 6 },
+      { raceId: "saudi-arabia-2023", points: 10, position: 5 },
+      { raceId: "abu-dhabi-2023", points: 8, position: 6 },
+    ],
+  },
+  {
+    driverId: "stroll",
+    season: 2024,
+    totalPoints: 95,
+    races: [
+      { raceId: "bahrain-2024", points: 10, position: 5 },
+      { raceId: "saudi-arabia-2024", points: 12, position: 4 },
+      { raceId: "abu-dhabi-2024", points: 10, position: 5 },
+    ],
+  },
+
+  // Esteban Ocon
+  {
+    driverId: "ocon",
+    season: 2022,
+    totalPoints: 92,
+    races: [
+      { raceId: "bahrain-2022", points: 8, position: 6 },
+      { raceId: "saudi-arabia-2022", points: 10, position: 5 },
+      { raceId: "abu-dhabi-2022", points: 8, position: 6 },
+    ],
+  },
+  {
+    driverId: "ocon",
+    season: 2023,
+    totalPoints: 110,
+    races: [
+      { raceId: "bahrain-2023", points: 10, position: 5 },
+      { raceId: "saudi-arabia-2023", points: 12, position: 4 },
+      { raceId: "abu-dhabi-2023", points: 10, position: 5 },
+    ],
+  },
+  {
+    driverId: "ocon",
+    season: 2024,
+    totalPoints: 130,
+    races: [
+      { raceId: "bahrain-2024", points: 12, position: 4 },
+      { raceId: "saudi-arabia-2024", points: 15, position: 3 },
+      { raceId: "abu-dhabi-2024", points: 12, position: 4 },
+    ],
+  },
+
+  // Pierre Gasly
+  {
+    driverId: "gasly",
+    season: 2022,
+    totalPoints: 93,
+    races: [
+      { raceId: "bahrain-2022", points: 10, position: 5 },
+      { raceId: "saudi-arabia-2022", points: 12, position: 4 },
+      { raceId: "abu-dhabi-2022", points: 8, position: 6 },
+    ],
+  },
+  {
+    driverId: "gasly",
+    season: 2023,
+    totalPoints: 105,
+    races: [
+      { raceId: "bahrain-2023", points: 8, position: 6 },
+      { raceId: "saudi-arabia-2023", points: 10, position: 5 },
+      { raceId: "abu-dhabi-2023", points: 12, position: 4 },
+    ],
+  },
+  {
+    driverId: "gasly",
+    season: 2024,
+    totalPoints: 115,
+    races: [
+      { raceId: "bahrain-2024", points: 10, position: 5 },
+      { raceId: "saudi-arabia-2024", points: 12, position: 4 },
+      { raceId: "abu-dhabi-2024", points: 15, position: 3 },
+    ],
+  },
+
+  // Valtteri Bottas
+  {
+    driverId: "bottas",
+    season: 2022,
+    totalPoints: 49,
+    races: [
+      { raceId: "bahrain-2022", points: 6, position: 7 },
+      { raceId: "saudi-arabia-2022", points: 8, position: 6 },
+      { raceId: "abu-dhabi-2022", points: 6, position: 7 },
+    ],
+  },
+  {
+    driverId: "bottas",
+    season: 2023,
+    totalPoints: 55,
+    races: [
+      { raceId: "bahrain-2023", points: 8, position: 6 },
+      { raceId: "saudi-arabia-2023", points: 10, position: 5 },
+      { raceId: "abu-dhabi-2023", points: 8, position: 6 },
+    ],
+  },
+  {
+    driverId: "bottas",
+    season: 2024,
+    totalPoints: 60,
+    races: [
+      { raceId: "bahrain-2024", points: 10, position: 5 },
+      { raceId: "saudi-arabia-2024", points: 12, position: 4 },
+      { raceId: "abu-dhabi-2024", points: 10, position: 5 },
+    ],
+  },
+
+  // Guanyu Zhou
+  {
+    driverId: "zhou",
+    season: 2022,
+    totalPoints: 20,
+    races: [
+      { raceId: "bahrain-2022", points: 2, position: 9 },
+      { raceId: "saudi-arabia-2022", points: 0, position: 15 },
+      { raceId: "abu-dhabi-2022", points: 2, position: 9 },
+    ],
+  },
+  {
+    driverId: "zhou",
+    season: 2023,
+    totalPoints: 30,
+    races: [
+      { raceId: "bahrain-2023", points: 2, position: 9 },
+      { raceId: "saudi-arabia-2023", points: 4, position: 8 },
+      { raceId: "abu-dhabi-2023", points: 4, position: 8 },
+    ],
+  },
+  {
+    driverId: "zhou",
+    season: 2024,
+    totalPoints: 40,
+    races: [
+      { raceId: "bahrain-2024", points: 4, position: 8 },
+      { raceId: "saudi-arabia-2024", points: 6, position: 7 },
+      { raceId: "abu-dhabi-2024", points: 4, position: 8 },
+    ],
+  },
+
+  // Alex Albon
+  {
+    driverId: "albon",
+    season: 2022,
+    totalPoints: 15,
+    races: [
+      { raceId: "bahrain-2022", points: 4, position: 8 },
+      { raceId: "saudi-arabia-2022", points: 6, position: 7 },
+      { raceId: "abu-dhabi-2022", points: 4, position: 8 },
+    ],
+  },
+  {
+    driverId: "albon",
+    season: 2023,
+    totalPoints: 17,
+    races: [
+      { raceId: "bahrain-2023", points: 6, position: 7 },
+      { raceId: "saudi-arabia-2023", points: 4, position: 8 },
+      { raceId: "abu-dhabi-2023", points: 6, position: 7 },
+    ],
+  },
+  {
+    driverId: "albon",
+    season: 2024,
+    totalPoints: 22,
+    races: [
+      { raceId: "bahrain-2024", points: 6, position: 7 },
+      { raceId: "saudi-arabia-2024", points: 8, position: 6 },
+      { raceId: "abu-dhabi-2024", points: 8, position: 6 },
+    ],
+  },
+
+  // Logan Sargeant
+  {
+    driverId: "sargeant",
+    season: 2023,
+    totalPoints: 0,
+    races: [
+      { raceId: "bahrain-2023", points: 0, position: 16 },
+      { raceId: "saudi-arabia-2023", points: 0, position: 17 },
+      { raceId: "abu-dhabi-2023", points: 0, position: 16 },
+    ],
+  },
+  {
+    driverId: "sargeant",
+    season: 2024,
+    totalPoints: 4,
+    races: [
+      { raceId: "bahrain-2024", points: 1, position: 10 },
+      { raceId: "saudi-arabia-2024", points: 2, position: 9 },
+      { raceId: "abu-dhabi-2024", points: 1, position: 10 },
+    ],
+  },
+
+  // Yuki Tsunoda
+  {
+    driverId: "tsunoda",
+    season: 2022,
+    totalPoints: 92,
+    races: [
+      { raceId: "bahrain-2022", points: 8, position: 6 },
+      { raceId: "saudi-arabia-2022", points: 10, position: 5 },
+      { raceId: "abu-dhabi-2022", points: 8, position: 6 },
+    ],
+  },
+  {
+    driverId: "tsunoda",
+    season: 2023,
+    totalPoints: 111,
+    races: [
+      { raceId: "bahrain-2023", points: 10, position: 5 },
+      { raceId: "saudi-arabia-2023", points: 12, position: 4 },
+      { raceId: "abu-dhabi-2023", points: 10, position: 5 },
+    ],
+  },
+  {
+    driverId: "tsunoda",
+    season: 2024,
+    totalPoints: 127,
+    races: [
+      { raceId: "bahrain-2024", points: 10, position: 5 },
+      { raceId: "saudi-arabia-2024", points: 15, position: 3 },
+      { raceId: "abu-dhabi-2024", points: 12, position: 4 },
+    ],
+  },
+
+  // Daniel Ricciardo
+  {
+    driverId: "ricciardo",
+    season: 2023,
+    totalPoints: 15,
+    races: [
+      { raceId: "bahrain-2023", points: 4, position: 8 },
+      { raceId: "saudi-arabia-2023", points: 6, position: 7 },
+      { raceId: "abu-dhabi-2023", points: 5, position: 8 },
+    ],
+  },
+  {
+    driverId: "ricciardo",
+    season: 2024,
+    totalPoints: 22,
+    races: [
+      { raceId: "bahrain-2024", points: 6, position: 7 },
+      { raceId: "saudi-arabia-2024", points: 8, position: 6 },
+      { raceId: "abu-dhabi-2024", points: 8, position: 6 },
+    ],
+  },
+
+  // Kevin Magnussen
+  {
+    driverId: "magnussen",
+    season: 2022,
+    totalPoints: 20,
+    races: [
+      { raceId: "bahrain-2022", points: 2, position: 9 },
+      { raceId: "saudi-arabia-2022", points: 4, position: 8 },
+      { raceId: "abu-dhabi-2022", points: 2, position: 9 },
+    ],
+  },
+  {
+    driverId: "magnussen",
+    season: 2023,
+    totalPoints: 18,
+    races: [
+      { raceId: "bahrain-2023", points: 4, position: 8 },
+      { raceId: "saudi-arabia-2023", points: 6, position: 7 },
+      { raceId: "abu-dhabi-2023", points: 4, position: 8 },
+    ],
+  },
+  {
+    driverId: "magnussen",
+    season: 2024,
+    totalPoints: 15,
+    races: [
+      { raceId: "bahrain-2024", points: 4, position: 8 },
+      { raceId: "saudi-arabia-2024", points: 6, position: 7 },
+      { raceId: "abu-dhabi-2024", points: 5, position: 8 },
+    ],
+  },
+
+  // Oliver Bearman
+  {
+    driverId: "bearman",
+    season: 2024,
+    totalPoints: 5,
+    races: [
+      { raceId: "bahrain-2024", points: 2, position: 9 },
+      { raceId: "saudi-arabia-2024", points: 3, position: 8 },
+      { raceId: "abu-dhabi-2024", points: 0, position: 16 },
+    ],
+  },
+];
 ];
 
 // Mock constructor race results for 2024 season
