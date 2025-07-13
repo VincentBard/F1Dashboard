@@ -63,18 +63,20 @@ const translations = {
     "header.subtitle": "Statistiques et analyses interactives de Formule 1",
 
     // Driver Performance Chart
-    "driver.chart.title": "Performance des pilotes au fil des saisons",
+    "driver.chart.title":
+      "Performance des pilotes au fil des saisons (Données simulées)",
     "driver.chart.description":
-      "Affiche l'évolution des points d'un pilote de F1 sélectionné au fil des saisons.",
+      "Affiche l'évolution des points d'un pilote de F1 sélectionné au fil des saisons en utilisant des données simulées.",
     "driver.chart.selectDriver": "Sélectionner un pilote",
     "driver.chart.selectSeasons": "Sélectionner les saisons",
     "driver.chart.yAxisLabel": "Points de championnat",
     "driver.chart.xAxisLabel": "Saison",
 
     // Constructor Chart
-    "constructor.chart.title": "Points des écuries par course",
+    "constructor.chart.title":
+      "Points des écuries par course (Données simulées)",
     "constructor.chart.description":
-      "Compare les points des écuries de F1 par course pour une saison donnée.",
+      "Compare les points des écuries de F1 par course pour une saison donnée en utilisant des données simulées.",
     "constructor.chart.selectSeason": "Sélectionner une saison",
     "constructor.chart.yAxisLabel": "Points",
     "constructor.chart.xAxisLabel": "Course",
