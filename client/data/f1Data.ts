@@ -141,13 +141,13 @@ export const drivers: Driver[] = [
   {
     id: "tsunoda",
     name: "Yuki Tsunoda",
-    team: "rb",
+    team: "alpha-tauri",
     nationality: "Japan",
   },
   {
     id: "ricciardo",
     name: "Daniel Ricciardo",
-    team: "rb",
+    team: "alpha-tauri",
     nationality: "Australia",
   },
   {
