@@ -60,7 +60,12 @@ export const drivers: Driver[] = [
     team: "ferrari",
     nationality: "Monaco",
   },
-  { id: "sainz", name: "Carlos Sainz", team: "ferrari", nationality: "Spain" },
+  {
+    id: "sainz",
+    name: "Carlos Sainz",
+    team: "ferrari",
+    nationality: "Spain",
+  },
   {
     id: "hamilton",
     name: "Lewis Hamilton",
@@ -97,7 +102,68 @@ export const drivers: Driver[] = [
     team: "aston-martin",
     nationality: "Canada",
   },
+  {
+    id: "ocon",
+    name: "Esteban Ocon",
+    team: "alpine",
+    nationality: "France",
+  },
+  {
+    id: "gasly",
+    name: "Pierre Gasly",
+    team: "alpine",
+    nationality: "France",
+  },
+  {
+    id: "bottas",
+    name: "Valtteri Bottas",
+    team: "stake-sauber",
+    nationality: "Finland",
+  },
+  {
+    id: "zhou",
+    name: "Guanyu Zhou",
+    team: "stake-sauber",
+    nationality: "China",
+  },
+  {
+    id: "albon",
+    name: "Alex Albon",
+    team: "williams",
+    nationality: "Thailand",
+  },
+  {
+    id: "sargeant",
+    name: "Logan Sargeant",
+    team: "williams",
+    nationality: "United States",
+  },
+  {
+    id: "tsunoda",
+    name: "Yuki Tsunoda",
+    team: "rb",
+    nationality: "Japan",
+  },
+  {
+    id: "ricciardo",
+    name: "Daniel Ricciardo",
+    team: "rb",
+    nationality: "Australia",
+  },
+  {
+    id: "magnussen",
+    name: "Kevin Magnussen",
+    team: "haas",
+    nationality: "Denmark",
+  },
+  {
+    id: "bearman",
+    name: "Oliver Bearman",
+    team: "haas",
+    nationality: "United Kingdom",
+  },
 ];
+
 
 export const constructors: Constructor[] = [
   { id: "red-bull", name: "Red Bull Racing", color: "#1E40AF" },
