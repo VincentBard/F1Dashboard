@@ -366,6 +366,26 @@ export const driverSeasonData: DriverSeasonData[] = [
   // Charles Leclerc
   {
     driverId: "leclerc",
+    season: 2018,
+    totalPoints: 39,
+    races: [
+      { raceId: "australia-2018", points: 6, position: 7 },
+      { raceId: "bahrain-2018", points: 10, position: 5 },
+      { raceId: "abu-dhabi-2018", points: 8, position: 6 },
+    ],
+  },
+  {
+    driverId: "leclerc",
+    season: 2019,
+    totalPoints: 264,
+    races: [
+      { raceId: "australia-2019", points: 10, position: 5 },
+      { raceId: "bahrain-2019", points: 0, position: 15 },
+      { raceId: "abu-dhabi-2019", points: 15, position: 3 },
+    ],
+  },
+  {
+    driverId: "leclerc",
     season: 2020,
     totalPoints: 98,
     races: [
@@ -412,6 +432,26 @@ export const driverSeasonData: DriverSeasonData[] = [
       { raceId: "bahrain-2024", points: 18, position: 2 },
       { raceId: "saudi-arabia-2024", points: 18, position: 2 },
       { raceId: "abu-dhabi-2024", points: 15, position: 3 },
+    ],
+  },
+  {
+    driverId: "leclerc",
+    season: 2025,
+    totalPoints: 385,
+    races: [
+      { raceId: "bahrain-2025", points: 15, position: 3 },
+      { raceId: "saudi-arabia-2025", points: 18, position: 2 },
+      { raceId: "abu-dhabi-2025", points: 25, position: 1 },
+    ],
+  },
+  {
+    driverId: "leclerc",
+    season: 2026,
+    totalPoints: 410,
+    races: [
+      { raceId: "bahrain-2026", points: 15, position: 3 },
+      { raceId: "saudi-arabia-2026", points: 15, position: 3 },
+      { raceId: "abu-dhabi-2026", points: 18, position: 2 },
     ],
   },
   // Sergio Pérez
