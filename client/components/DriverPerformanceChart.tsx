@@ -29,7 +29,9 @@ import {
 export function DriverPerformanceChart() {
   const { t, language } = useLanguage();
   const [selectedDriverId, setSelectedDriverId] = useState("verstappen");
-  const [selectedSeasons, setSelectedSeasons] = useState([2022, 2023, 2024]);
+  const [selectedSeasons, setSelectedSeasons] = useState([
+    2020, 2021, 2022, 2023, 2024,
+  ]);
 
   const driverData = getDriverSeasonData(selectedDriverId, selectedSeasons);
   const selectedDriver = getDriverById(selectedDriverId);
