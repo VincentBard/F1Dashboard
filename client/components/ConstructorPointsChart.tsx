@@ -118,46 +118,50 @@ export function ConstructorPointsChart() {
         </div>
       </CardHeader>
 
-      <CardContent>
-        <div className="h-80">
+      <CardContent className="pt-0">
+        <div className="h-64 md:h-80">
           <ResponsiveContainer width="100%" height="100%">
             <BarChart
               data={chartData}
               margin={{
                 top: 20,
-                right: 30,
+                right: 10,
                 left: 20,
-                bottom: 60,
+                bottom: 70,
               }}
             >
               <CartesianGrid strokeDasharray="3 3" className="stroke-muted" />
               <XAxis
                 dataKey="race"
                 className="text-xs"
-                tick={{ fontSize: 10 }}
+                tick={{ fontSize: 9 }}
                 angle={-45}
                 textAnchor="end"
-                height={80}
+                height={70}
+                interval={0}
               />
               <YAxis
                 className="text-xs"
-                tick={{ fontSize: 12 }}
+                tick={{ fontSize: 11 }}
                 label={{
                   value: t("constructor.chart.yAxisLabel"),
                   angle: -90,
                   position: "insideLeft",
-                  style: { textAnchor: "middle", fontSize: "12px" },
+                  style: { textAnchor: "middle", fontSize: "11px" },
                 }}
               />
               <Tooltip content={<CustomTooltip />} />
-              <Legend wrapperStyle={{ fontSize: "12px", paddingTop: "10px" }} />
+              <Legend
+                wrapperStyle={{ fontSize: "10px", paddingTop: "5px" }}
+                iconSize={8}
+              />
               {topConstructors.map((constructor) => (
                 <Bar
                   key={constructor.id}
                   dataKey={constructor.name}
                   stackId="points"
                   fill={constructor.color}
-                  radius={[2, 2, 0, 0]}
+                  radius={[1, 1, 0, 0]}
                 />
               ))}
             </BarChart>
@@ -165,7 +169,7 @@ export function ConstructorPointsChart() {
         </div>
 
         {chartData.length === 0 && (
-          <div className="flex h-80 items-center justify-center text-muted-foreground">
+          <div className="flex h-64 md:h-80 items-center justify-center text-muted-foreground">
             {t("common.noData")}
           </div>
         )}
