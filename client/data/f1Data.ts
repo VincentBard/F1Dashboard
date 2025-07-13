@@ -274,6 +274,26 @@ export const driverSeasonData: DriverSeasonData[] = [
   // Lewis Hamilton
   {
     driverId: "hamilton",
+    season: 2018,
+    totalPoints: 408,
+    races: [
+      { raceId: "australia-2018", points: 25, position: 1 },
+      { raceId: "bahrain-2018", points: 25, position: 1 },
+      { raceId: "abu-dhabi-2018", points: 25, position: 1 },
+    ],
+  },
+  {
+    driverId: "hamilton",
+    season: 2019,
+    totalPoints: 413,
+    races: [
+      { raceId: "australia-2019", points: 25, position: 1 },
+      { raceId: "bahrain-2019", points: 18, position: 2 },
+      { raceId: "abu-dhabi-2019", points: 25, position: 1 },
+    ],
+  },
+  {
+    driverId: "hamilton",
     season: 2020,
     totalPoints: 347,
     races: [
@@ -320,6 +340,26 @@ export const driverSeasonData: DriverSeasonData[] = [
       { raceId: "bahrain-2024", points: 12, position: 4 },
       { raceId: "saudi-arabia-2024", points: 15, position: 3 },
       { raceId: "abu-dhabi-2024", points: 18, position: 2 },
+    ],
+  },
+  {
+    driverId: "hamilton",
+    season: 2025,
+    totalPoints: 285,
+    races: [
+      { raceId: "bahrain-2025", points: 18, position: 2 },
+      { raceId: "saudi-arabia-2025", points: 25, position: 1 },
+      { raceId: "abu-dhabi-2025", points: 18, position: 2 },
+    ],
+  },
+  {
+    driverId: "hamilton",
+    season: 2026,
+    totalPoints: 320,
+    races: [
+      { raceId: "bahrain-2026", points: 18, position: 2 },
+      { raceId: "saudi-arabia-2026", points: 25, position: 1 },
+      { raceId: "abu-dhabi-2026", points: 15, position: 3 },
     ],
   },
 
