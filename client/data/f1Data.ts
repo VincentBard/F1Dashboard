@@ -613,6 +613,36 @@ export const driverSeasonData: DriverSeasonData[] = [
   // Lando Norris
   {
     driverId: "norris",
+    season: 2019,
+    totalPoints: 49,
+    races: [
+      { raceId: "australia-2019", points: 6, position: 7 },
+      { raceId: "bahrain-2019", points: 6, position: 7 },
+      { raceId: "abu-dhabi-2019", points: 10, position: 5 },
+    ],
+  },
+  {
+    driverId: "norris",
+    season: 2020,
+    totalPoints: 97,
+    races: [
+      { raceId: "australia-2020", points: 8, position: 6 },
+      { raceId: "bahrain-2020", points: 10, position: 5 },
+      { raceId: "abu-dhabi-2020", points: 8, position: 6 },
+    ],
+  },
+  {
+    driverId: "norris",
+    season: 2021,
+    totalPoints: 160,
+    races: [
+      { raceId: "bahrain-2021", points: 8, position: 6 },
+      { raceId: "imola-2021", points: 10, position: 5 },
+      { raceId: "abu-dhabi-2021", points: 6, position: 7 },
+    ],
+  },
+  {
+    driverId: "norris",
     season: 2022,
     totalPoints: 215,
     races: [
@@ -639,6 +669,26 @@ export const driverSeasonData: DriverSeasonData[] = [
       { raceId: "bahrain-2024", points: 15, position: 3 },
       { raceId: "saudi-arabia-2024", points: 18, position: 2 },
       { raceId: "abu-dhabi-2024", points: 12, position: 4 },
+    ],
+  },
+  {
+    driverId: "norris",
+    season: 2025,
+    totalPoints: 340,
+    races: [
+      { raceId: "bahrain-2025", points: 25, position: 1 },
+      { raceId: "saudi-arabia-2025", points: 12, position: 4 },
+      { raceId: "abu-dhabi-2025", points: 15, position: 3 },
+    ],
+  },
+  {
+    driverId: "norris",
+    season: 2026,
+    totalPoints: 365,
+    races: [
+      { raceId: "bahrain-2026", points: 25, position: 1 },
+      { raceId: "saudi-arabia-2026", points: 25, position: 1 },
+      { raceId: "abu-dhabi-2026", points: 12, position: 4 },
     ],
   },
 
