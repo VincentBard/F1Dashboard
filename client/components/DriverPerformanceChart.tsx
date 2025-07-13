@@ -127,14 +127,14 @@ export function DriverPerformanceChart() {
         </div>
       </CardHeader>
 
-      <CardContent>
-        <div className="h-80">
+      <CardContent className="pt-0">
+        <div className="h-64 md:h-80">
           <ResponsiveContainer width="100%" height="100%">
             <LineChart
               data={chartData}
               margin={{
                 top: 20,
-                right: 30,
+                right: 20,
                 left: 20,
                 bottom: 5,
               }}
@@ -143,16 +143,16 @@ export function DriverPerformanceChart() {
               <XAxis
                 dataKey="season"
                 className="text-xs"
-                tick={{ fontSize: 12 }}
+                tick={{ fontSize: 11 }}
               />
               <YAxis
                 className="text-xs"
-                tick={{ fontSize: 12 }}
+                tick={{ fontSize: 11 }}
                 label={{
                   value: t("driver.chart.yAxisLabel"),
                   angle: -90,
                   position: "insideLeft",
-                  style: { textAnchor: "middle", fontSize: "12px" },
+                  style: { textAnchor: "middle", fontSize: "11px" },
                 }}
               />
               <Tooltip content={<CustomTooltip />} />
@@ -164,16 +164,16 @@ export function DriverPerformanceChart() {
                 dot={{
                   fill: constructor?.color || "#DC2626",
                   strokeWidth: 2,
-                  r: 6,
+                  r: 5,
                 }}
-                activeDot={{ r: 8 }}
+                activeDot={{ r: 7 }}
               />
             </LineChart>
           </ResponsiveContainer>
         </div>
 
         {chartData.length === 0 && (
-          <div className="flex h-80 items-center justify-center text-muted-foreground">
+          <div className="flex h-64 md:h-80 items-center justify-center text-muted-foreground">
             {t("common.noData")}
           </div>
         )}
