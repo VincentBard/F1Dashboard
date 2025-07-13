@@ -117,13 +117,13 @@ export const drivers: Driver[] = [
   {
     id: "bottas",
     name: "Valtteri Bottas",
-    team: "alpha-romeo",
+    team: "alfa-romeo",
     nationality: "Finland",
   },
   {
     id: "zhou",
     name: "Guanyu Zhou",
-    team: "alpha-romeo",
+    team: "alfa-romeo",
     nationality: "China",
   },
   {
