@@ -8,12 +8,12 @@ export default function Index() {
       <DashboardHeader />
 
       <main className="container mx-auto px-4 py-8">
-        <div className="grid gap-8 lg:grid-cols-2">
-          <div className="space-y-6">
+        <div className="grid gap-6 md:gap-8 xl:grid-cols-2">
+          <div className="min-h-0">
             <DriverPerformanceChart />
           </div>
 
-          <div className="space-y-6">
+          <div className="min-h-0">
             <ConstructorPointsChart />
           </div>
         </div>
