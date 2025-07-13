@@ -171,8 +171,8 @@ export const constructors: Constructor[] = [
   { id: "mclaren", name: "McLaren", color: "#EA580C" },
   { id: "alpine", name: "Alpine", color: "#2563EB" },
   { id: "aston-martin", name: "Aston Martin", color: "#059669" },
-  { id: "alpha-tauri", name: "AlphaTauri", color: "#1E1B4B" },
-  { id: "alfa-romeo", name: "Alfa Romeo", color: "#E11D48" },
+  { id: "alpha-tauri", name: "Visa Cash-App RB", color: "#1E1B4B" },
+  { id: "alfa-romeo", name: "Kick Sauber", color: "#E11D48" },
   { id: "haas", name: "Haas", color: "#6B7280" },
   { id: "williams", name: "Williams", color: "#2563EB" },
 ];
