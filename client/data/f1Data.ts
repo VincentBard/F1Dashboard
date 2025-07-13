@@ -1625,7 +1625,7 @@ export const season2024: Season = {
 
 // Mock seasons for dropdown
 export const availableSeasons = [
-  2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026,
+  2018, 2019, 2020, 2021, 2022, 2023, 2024
 ];
 
 // Utility functions
